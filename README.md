@@ -21,7 +21,7 @@ There are two ways of using this grid: either as a semantic grid with SASS or an
 
 ### SASS
 
-In SASS you can set the Grid variables in your stylesheet and than import the _grid.sass.
+In SASS you can set the Grid variables in the _grid-seetings.sass and then add both the _grid-seetings.sass and _grid.sass to your base imports.
 
 <pre>
 // --------------------------
@@ -43,7 +43,9 @@ $screen:          1024px
 // --------------------------
 // Import Grid
 // --------------------------
-
+</pre>
+<pre>
+@import grid-settings
 @import grid
 </pre>
 
