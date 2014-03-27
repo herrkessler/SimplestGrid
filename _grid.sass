@@ -1,4 +1,74 @@
 // --------------------------
+// Grid Default Settings
+// --------------------------
+
+$grid-width:      1088px !default
+$columns:         12 !default
+$gutter:          2% !default
+
+// --------------------------
+// Default Breakpoints
+// --------------------------
+
+$mobile:          480px !default
+$tablet:          768px !default
+$screen:          1024px !default
+
+// --------------------------
+// Grid Mixins
+// --------------------------
+
+@function calc-grid($input)
+  @return ((100% - ((($columns/$input) - 1)*2)) / ($columns/$input))
+
+@function calc-full-grid($input)
+  @return (100% / ($columns/$input))
+
+
+@mixin container
+  *zoom: 1
+  max-width: $grid-width
+  margin-left: auto
+  margin-right: auto
+
+@mixin column($number, $full: false)
+  display: block
+  float: left
+  @if $full == full
+    width: calc-full-grid($number)
+    margin-right: 0
+  @else
+    width: calc-grid($number)
+    margin-right: $gutter
+    &:last-child
+      margin-right: 0
+
+@mixin row
+  display: block
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+@mixin omega($nth: false)
+  @if length($nth) == 0
+    margin-right: 0
+  @else
+    &:nth-child(#{$nth})
+      margin-right: 0
+
+@mixin pad
+  padding: 1%
+
+// --------------------------
+// Media Query Mixins
+// --------------------------
+
+@mixin media($width)
+  @media screen and (max-width: $width)
+    @content
+
+// --------------------------
 // Grid Mixins
 // --------------------------
 
