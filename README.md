@@ -21,7 +21,7 @@ There are two ways of using this grid: either as a semantic grid with SASS or an
 
 ### SASS
 
-In SASS you can set the Grid variables in the _grid-seetings.sass and then add both the _grid-seetings.sass and _grid.sass to your base imports.
+With SASS you can set the grid variables in the _grid-settings.sass and then add both the _grid-settings.sass and _grid.sass to your base imports.
 
 <pre>
 // --------------------------
@@ -44,19 +44,22 @@ $screen:          1024px
 // Import Grid
 // --------------------------
 </pre>
+
+In your base import stylesheet.
+
 <pre>
 @import grid-settings
 @import grid
 </pre>
 
-First set the .container
+First set the container e.g.
 
 <pre>
 .wrapper
 	+container
 </pre>
 
-Then add a row
+Then add a row e.g.
 
 <pre>
 .row
@@ -76,7 +79,7 @@ Now you can @extend your divs with any grid width you might need. The standard g
 	+column(4, full)
 </pre>
 
-There is also a omega() like in Bourbon if you need to have a long list of elements, e.g.
+There is also a omega() like in Bourbon if you need to have a undefined list of elements, e.g.
 
 <pre>
 .ul
@@ -99,7 +102,7 @@ And last but not least, use the standard media queries or define them in the set
 
 ### CSS
 
-With good ol' CSS, just add the simplest-grid.css to your head section or import it into your stylsheet. Have a look in the deployment folder, there is a [working example](http://herrkessler.de/simplest-grid/) with all available classes: standard, responsive, full width and combinations of all of them.
+With good ol' CSS, just add the simplest-grid.css to your head section or import it into your stylesheet. Have a look at the [working example](http://herrkessler.de/simplest-grid/) with all available classes: standard, responsive, full width and combinations of all of them.
 
 <pre>
 link href='css/simplest-grid.css' rel='stylesheet'
@@ -107,7 +110,7 @@ link href='css/simplest-grid.css' rel='stylesheet'
 @import: url('simplest-grid.css)
 </pre>
 
-Then add the preconfigured CSS classes to your divs. (The numbers stand for width in percentage, e.g. div.g-50 : 50% width)
+Then add the preconfigured CSS classes to your divs. (The numbers stand for width in percentage, e.g. div.g-50 : 50% width. div.g-12 is actually be 12.5%)
 
 <pre>
 div.container
@@ -146,13 +149,13 @@ div.container
 In order to get the whole thing responsive with the standard breakpoints (1024px, 768px, 480px), use the .res class
 
 <pre>
-div.g-100.res, div.g-50.res, div.g-30.res, ...
+div.g-100.res, div.g-50.res, div.g-30.res, div.g25.res, ...
 </pre>
 
 If you want the grid to span the full column width without any margins use the .full class
 
 <pre>
-div.g-100.full, div.g-50.full, ...
+div.g-100.full, div.g-50.full, div.g-30.full, ...
 </pre>
 
 And guess what, you can combine both versions!
