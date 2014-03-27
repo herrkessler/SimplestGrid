@@ -2,13 +2,13 @@
 
 ## Why?
 
-You will see that this grid is quite close to [thoughtbot's](https://github.com/thoughtbot) fantastic [Bourbon Neat](https://github.com/thoughtbot/neat) Grid and might ask yourself: "Why this pretty, pretty similiar grid?"
+You will see that this grid is quite close to [thoughtbot's](https://github.com/thoughtbot) fantastic [Bourbon Neat](https://github.com/thoughtbot/neat) Grid and might ask yourself: "Why does pretty, pretty similiar grid exist??"
 
-I just needed a solution for a combined unsemantic and semantic grid I could use for myself prototyping with [Codekit](https://incident57.com/codekit/) or [Gulp](http://gulpjs.com/) and development with TYPO3. Don't get me wrong, I am very, very happy with [Bourbon Neat](https://github.com/thoughtbot/neat), but give it a try when not being able to use semantic markup or Rails or Node...
+I just needed a solution for a combined unsemantic and semantic grid I could use for myself prototyping with [Codekit](https://incident57.com/codekit/) or [Gulp](http://gulpjs.com/) and development with TYPO3. Don't get me wrong, I am very, very happy with [Bourbon Neat](https://github.com/thoughtbot/neat), but give it a try when not being able to use semantic markup or Rails or Node or ...
 
 So maybe you find this project helpful, too. And be aware this is work in progress!
 
-Have a look at the [working example](http://herrkessler.de/simplest-grid/).
+Have a look at the [example page](http://herrkessler.de/simplest-grid/).
 
 ## Requirements
 
@@ -169,3 +169,7 @@ If you don't know what's coming up in a row you can add some .omega classes, the
 <pre>
 div.g-25.omega.four-n, div.g-25.omega.four-n, div.g-25.omega.four-n, div.g-25.omega.four-n, ...
 </pre>
+
+### So is this cross-browser tested?
+
+**NO** ... or let's say **not yet**. I'm planing on doing so sometime soon.
