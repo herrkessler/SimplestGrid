@@ -163,3 +163,9 @@ And guess what, you can combine both versions!
 <pre>
 div.g-100.full.res, div.g-50.full.res, ...
 </pre>
+
+If you don't know what's coming up in a row you can add some .omega classes, there are .two-n, .four-n, .six-n, .eight-n, .odd & .even, e.g.:
+
+<pre>
+div.g-25.omega.four-n, div.g-25.omega.four-n, div.g-25.omega.four-n, div.g-25.omega.four-n, ...
+</pre>

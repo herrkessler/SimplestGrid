@@ -3,19 +3,6 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-.container {
-  *zoom: 1;
-  max-width: 1088px;
-  margin-left: auto;
-  margin-right: auto;}
-
-.row {
-  display: block; }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both; }
-
 .g-100 {
   display: block;
   float: left;
@@ -231,3 +218,16 @@
       float: left;
       width: 100%;
       margin-right: 0; } }
+
+.omega.two-n:nth-child(2n) {
+  margin-right: 0; }
+.omega.four-n:nth-child(4n) {
+  margin-right: 0; }
+.omega.six-n:nth-child(6n) {
+  margin-right: 0; }
+.omega.eight-n:nth-child(8n) {
+  margin-right: 0; }
+.omega.even:nth-child(even) {
+  margin-right: 0; }
+.omega.odd:nth-child(odd) {
+  margin-right: 0; }
