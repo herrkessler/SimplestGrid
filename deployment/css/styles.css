@@ -1,0 +1,250 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-family: sans-serif; }
+
+.container {
+  *zoom: 1;
+  max-width: 1088px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0; }
+
+.row {
+  display: block;
+  background: #333333; }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row:first-child {
+    padding: 20px 0 0 0; }
+
+.element {
+  background: #555555;
+  padding: 20px 0;
+  border: 1px solid #888888;
+  margin-bottom: 20px; }
+
+.g-100 {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-right: 2%; }
+  .g-100:last-child {
+    margin-right: 0; }
+
+.g-50 {
+  display: block;
+  float: left;
+  width: 49%;
+  margin-right: 2%; }
+  .g-50:last-child {
+    margin-right: 0; }
+  .g-50.full {
+    display: block;
+    float: left;
+    width: 50%;
+    margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .g-50.res {
+      display: block;
+      float: left;
+      width: 100%;
+      margin-right: 2%; }
+      .g-50.res:last-child {
+        margin-right: 0; } }
+
+.g-30 {
+  display: block;
+  float: left;
+  width: 32%;
+  margin-right: 2%; }
+  .g-30:last-child {
+    margin-right: 0; }
+  .g-30.full {
+    display: block;
+    float: left;
+    width: 33.33333%;
+    margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .g-30.res {
+      display: block;
+      float: left;
+      width: 100%;
+      margin-right: 2%; }
+      .g-30.res:last-child {
+        margin-right: 0; }
+      .g-30.res:nth-child(false) {
+        margin-right: 0; } }
+
+.g-25 {
+  display: block;
+  float: left;
+  width: 23.5%;
+  margin-right: 2%; }
+  .g-25:last-child {
+    margin-right: 0; }
+  .g-25.full {
+    display: block;
+    float: left;
+    width: 25%;
+    margin-right: 0; }
+    @media screen and (max-width: 768px) {
+      .g-25.full.res {
+        display: block;
+        float: left;
+        width: 50%;
+        margin-right: 0; } }
+    @media screen and (max-width: 480px) {
+      .g-25.full.res {
+        display: block;
+        float: left;
+        width: 100%;
+        margin-right: 0; } }
+  @media screen and (max-width: 768px) {
+    .g-25.res {
+      display: block;
+      float: left;
+      width: 49%;
+      margin-right: 2%; }
+      .g-25.res:last-child {
+        margin-right: 0; }
+      .g-25.res:nth-child(2n) {
+        margin-right: 0; } }
+  @media screen and (max-width: 480px) {
+    .g-25.res {
+      display: block;
+      float: left;
+      width: 100%;
+      margin-right: 0; } }
+
+.g-16 {
+  display: block;
+  float: left;
+  width: 15%;
+  margin-right: 2%; }
+  .g-16:last-child {
+    margin-right: 0; }
+  .g-16.full {
+    display: block;
+    float: left;
+    width: 16.66667%;
+    margin-right: 0; }
+    @media screen and (max-width: 768px) {
+      .g-16.full.res {
+        display: block;
+        float: left;
+        width: 33.33333%;
+        margin-right: 0; } }
+    @media screen and (max-width: 480px) {
+      .g-16.full.res {
+        display: block;
+        float: left;
+        width: 100%;
+        margin-right: 0; } }
+  @media screen and (max-width: 768px) {
+    .g-16.res {
+      display: block;
+      float: left;
+      width: 32%;
+      margin-right: 2%; }
+      .g-16.res:last-child {
+        margin-right: 0; }
+      .g-16.res:nth-child(3n) {
+        margin-right: 0; } }
+  @media screen and (max-width: 480px) {
+    .g-16.res {
+      display: block;
+      float: left;
+      width: 100%;
+      margin-right: 0; } }
+
+.g-12 {
+  display: block;
+  float: left;
+  width: 10.75%;
+  margin-right: 2%; }
+  .g-12:last-child {
+    margin-right: 0; }
+  .g-12.full {
+    display: block;
+    float: left;
+    width: 12.5%;
+    margin-right: 0; }
+    @media screen and (max-width: 768px) {
+      .g-12.full.res {
+        display: block;
+        float: left;
+        width: 50%;
+        margin-right: 0; } }
+    @media screen and (max-width: 480px) {
+      .g-12.full.res {
+        display: block;
+        float: left;
+        width: 100%;
+        margin-right: 0; } }
+  @media screen and (max-width: 768px) {
+    .g-12.res {
+      display: block;
+      float: left;
+      width: 49%;
+      margin-right: 2%; }
+      .g-12.res:last-child {
+        margin-right: 0; }
+      .g-12.res:nth-child(2n) {
+        margin-right: 0; } }
+  @media screen and (max-width: 480px) {
+    .g-12.res {
+      display: block;
+      float: left;
+      width: 100%;
+      margin-right: 0; } }
+
+.g-10 {
+  display: block;
+  float: left;
+  width: 6.5%;
+  margin-right: 2%; }
+  .g-10:last-child {
+    margin-right: 0; }
+  .g-10.full {
+    display: block;
+    float: left;
+    width: 8.33333%;
+    margin-right: 0; }
+    @media screen and (max-width: 768px) {
+      .g-10.full.res {
+        display: block;
+        float: left;
+        width: 33.33333%;
+        margin-right: 0; } }
+    @media screen and (max-width: 480px) {
+      .g-10.full.res {
+        display: block;
+        float: left;
+        width: 50%;
+        margin-right: 0; } }
+  @media screen and (max-width: 768px) {
+    .g-10.res {
+      display: block;
+      float: left;
+      width: 15%;
+      margin-right: 2%; }
+      .g-10.res:last-child {
+        margin-right: 0; }
+      .g-10.res:nth-child(6n) {
+        margin-right: 0; } }
+  @media screen and (max-width: 480px) {
+    .g-10.res {
+      display: block;
+      float: left;
+      width: 100%;
+      margin-right: 0; } }
