@@ -8,6 +8,8 @@ I just needed a solution for a combined unsemantic and semantic grid I could use
 
 So maybe you find this project helpful, too. And be aware this is work in progress!
 
+Have a look at the [working example](http://herrkessler.de/simplest-grid/).
+
 ## Requirements
 
 * SASS
