@@ -3,13 +3,6 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-body {
-  background: black;
-  color: white;
-  text-align: center;
-  font-size: 14px;
-  font-family: sans-serif; }
-
 .container {
   *zoom: 1;
   max-width: 1088px;
@@ -18,20 +11,11 @@ body {
   padding: 20px 0; }
 
 .row {
-  display: block;
-  background: #333333; }
+  display: block; }
   .row:after {
     content: "";
     display: table;
     clear: both; }
-  .row:first-child {
-    padding: 20px 0 0 0; }
-
-.element {
-  background: #555555;
-  padding: 20px 0;
-  border: 1px solid #888888;
-  margin-bottom: 20px; }
 
 .g-100 {
   display: block;
