@@ -172,4 +172,11 @@ div.g-25.omega.four-n, div.g-25.omega.four-n, div.g-25.omega.four-n, div.g-25.om
 
 ### So is this cross-browser tested?
 
-**NO** ... or let's say **not yet**. I'm planing on doing so sometime soon.
+
+**Works - so far - in**:
+
+* Chrome
+* Safari
+* Firefox
+* IE9+
+* IE8 (with selectivizr only and no media queries)
