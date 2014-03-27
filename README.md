@@ -1,7 +1,7 @@
 # Simplest Grid
 
 ## Why?
----
+
 You will see that this grid is quite close to [thoughtbot's](https://github.com/thoughtbot) fantastic [Bourbon Neat](https://github.com/thoughtbot/neat) Grid and might ask yourself: "Why this pretty, pretty similiar grid?"
 
 I just needed a solution for a combined unsemantic and semantic grid I could use for myself prototyping with [Codekit](https://incident57.com/codekit/) or [Gulp](http://gulpjs.com/) and development with TYPO3. Don't get me wrong, I am very, very happy with [Bourbon Neat](https://github.com/thoughtbot/neat), but give it a try when not being able to use semantic markup or Rails or Node...
@@ -9,12 +9,12 @@ I just needed a solution for a combined unsemantic and semantic grid I could use
 So maybe you find this project helpful, too. And be aware this is work in progress!
 
 ## Requirements
-----
+
 * SASS
 * or Nothing
 
 ## Getting Started
-----
+
 There are two ways of using this grid: either as a semantic grid with SASS or an ol' unsemantic CSS grid, like 960.gs back then... with lots of class names!
 
 ### SASS
