@@ -2,9 +2,9 @@
 
 ## Why?
 
-You will see that this grid is quite close to [thoughtbot's](https://github.com/thoughtbot) fantastic [Bourbon Neat](https://github.com/thoughtbot/neat) Grid and might ask yourself: "Why does pretty, pretty similiar grid exist??"
+You will see that this grid is quite close to [thoughtbot's](https://github.com/thoughtbot) fantastic [Bourbon Neat](https://github.com/thoughtbot/neat) Grid and might ask yourself: **"Why does pretty, pretty similiar grid exist??"**
 
-I just needed a solution for a combined unsemantic and semantic grid I could use for myself prototyping with [Codekit](https://incident57.com/codekit/) or [Gulp](http://gulpjs.com/) and development with TYPO3. Don't get me wrong, I am very, very happy with [Bourbon Neat](https://github.com/thoughtbot/neat), but give it a try when not being able to use semantic markup or Rails or Node or ...
+I just needed a solution for a combined unsemantic and semantic grid I could use for myself prototyping with [Codekit](https://incident57.com/codekit/) or [Gulp](http://gulpjs.com/) or [Grunt](http://gruntjs.com/) and final development with [TYPO3](http://typo3.org/). Don't get me wrong, I am very, very happy with [Bourbon Neat](https://github.com/thoughtbot/neat), but give Neat a try when not being able to use semantic markup or Rails or Node or ...
 
 So maybe you find this project helpful, too. And be aware this is work in progress!
 
@@ -79,12 +79,12 @@ Now you can @extend your divs with any grid width you might need. The standard g
 	+column(4, full)
 </pre>
 
-There is also a omega() like in Bourbon if you need to have a undefined list of elements, e.g.
+There is also an omega() mixin like in Neat if you need to have a undefined list of elements, e.g.
 
 <pre>
-.ul
+ul
 	+row
-.li
+ul .li
 	+columns(4)
 	+omega(4n)
 </pre> 
@@ -107,10 +107,10 @@ With good ol' CSS, just add the simplest-grid.css to your head section or import
 <pre>
 link href='css/simplest-grid.css' rel='stylesheet'
 ---
-@import: url('simplest-grid.css)
+@import: url('simplest-grid.css')
 </pre>
 
-Then add the preconfigured CSS classes to your divs. (The numbers stand for width in percentage, e.g. div.g-50 : 50% width. div.g-12 is actually be 12.5%)
+Then add the preconfigured CSS classes to your divs. (The numbers stand for width in percentage, e.g. div.g-50 : 50% width. div.g-12 is actually 12.5%)
 
 <pre>
 div.container
@@ -180,3 +180,7 @@ div.g-25.omega.four-n, div.g-25.omega.four-n, div.g-25.omega.four-n, div.g-25.om
 * Firefox
 * IE9+
 * IE8 (with selectivizr only and no media queries)
+
+### What comes next?
+
+There are some subpixel rendering problems on iOS devices that I will take care of next. Afterwards I'll test Android devices. 
