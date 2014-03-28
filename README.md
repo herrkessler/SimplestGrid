@@ -1,5 +1,7 @@
 # Simplest Grid
 
+![Simplest Grid](http://herrkessler.de/simplest-grid/SimplestGrid.png)
+
 ## Why?
 
 You will see that this grid is quite close to [thoughtbot's](https://github.com/thoughtbot) fantastic [Bourbon Neat](https://github.com/thoughtbot/neat) Grid and might ask yourself: **"Why does pretty, pretty similiar grid exist??"**
