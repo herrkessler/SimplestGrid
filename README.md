@@ -1,6 +1,6 @@
 # Simplest Grid
 
-![Simplest Grid](http://herrkessler.de/simplest-grid/SimplestGrid.png)
+![Simplest Grid](http://herrkessler.de/simplest-grid/SimplestGrid-lg.png)
 
 ## Why?
 
