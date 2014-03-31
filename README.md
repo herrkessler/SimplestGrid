@@ -185,4 +185,6 @@ div.g-25.omega.four-n, div.g-25.omega.four-n, div.g-25.omega.four-n, div.g-25.om
 
 ### What comes next?
 
-There are some subpixel rendering problems on iOS devices that I will take care of next. Afterwards I'll test Android devices. 
+There are subpixel rendering problems in Safari ~~that I will take care of next~~. 
+
+Skipped subpixel rendering problems... Take a look at A List Apart article on [Fluid Grids](http://alistapart.com/article/fluidgrids). Even my archetype Bourbon Neat can't cope with that. 
